@@ -1064,7 +1064,7 @@ document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => 
 
 const form = document.getElementById('contactForm');
 const fb = document.getElementById('formFeedback');
-form.addEventListener('submit', e => { e.preventDefault(); const name = document.getElementById('name').value.trim(); const email = document.getElementById('email').value.trim(); const msg = document.getElementById('message').value.trim(); if (!name || !email || !msg) { fb.textContent = '⚠ Vui lòng điền đầy đủ thông tin.'; return; } const subject = encodeURIComponent(`[Your Lie in April] Thư từ ${name}`); const body = encodeURIComponent(`Tên: ${name}\nEmail: ${email}\n\n${msg}`); window.location.href = `mailto:yourlie.april@sakura.com?subject=${subject}&body=${body}`; fb.textContent = '📧 Đang mở ứng dụng email...'; });
+form.addEventListener('submit', e => { e.preventDefault(); const name = document.getElementById('name').value.trim(); const email = document.getElementById('email').value.trim(); const msg = document.getElementById('message').value.trim(); if (!name || !email || !msg) { fb.textContent = '⚠ Vui lòng điền đầy đủ thông tin.'; return; } const subject = encodeURIComponent(`[Your Lie in April] Thư từ ${name}`); const body = encodeURIComponent(`Tên: ${name}\nEmail: ${email}\n\n${msg}`); window.location.href = `mailto:doconghieu99@gmail.com?subject=${subject}&body=${body}`; fb.textContent = '📧 Đang mở ứng dụng email...'; });
 
 
 document.querySelectorAll('a[href^="#"]').forEach(a => { a.addEventListener('click', e => { const target = document.querySelector(a.getAttribute('href')); if (target) { e.preventDefault(); target.scrollIntoView({ behavior:'smooth' }); } }); });
