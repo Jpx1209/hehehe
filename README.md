@@ -44,7 +44,6 @@ Một trang web fanpage tĩnh, được xây dựng để tôn vinh bộ anime c
 - ✨ **Hiệu ứng xuất hiện tuần tự** cho các phần tử khi cuộn (scroll reveal)
 - 🌸 **Cánh hoa anh đào rơi** bằng Canvas (55 cánh hoa với màu sắc và chuyển động ngẫu nhiên)
 Nếu bạn muốn thay đổi hiệu ứng hoa rơi, có thể điều chỉnh số lượng cánh hoa trong biến petals (hàm createPetals()).
-- 🖱️ **Con trỏ chuột tùy chỉnh** (chấm hồng nhỏ, không có vòng tròn to – đã loại bỏ theo yêu cầu)
 - 🖼️ **Lightbox xem ảnh toàn màn hình** khi click vào ảnh ở Gallery, Nhân vật hoặc Story
 - 🎵 **Nhúng video local** (hoặc fallback YouTube nếu không có file)
 - 📱 **Giao diện responsive** trên cả desktop, tablet và mobile
