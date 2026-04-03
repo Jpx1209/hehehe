@@ -1,6 +1,6 @@
 # 🌸 四月は君の嘘 – Your Lie in April (Shigatsu wa Kimi no Uso)
 
-![Website Preview](https://jpx1209.github.io/hehehe/)  
+![Website Preview]
 https://jpx1209.github.io/hehehe/
 
 Một trang web fanpage tĩnh, được xây dựng để tôn vinh bộ anime cảm động **"Your Lie in April"** (Tháng Tư là lời nói dối của em). 
